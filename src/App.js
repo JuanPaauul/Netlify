@@ -18,5 +18,5 @@ form.addEventListener("submit", (event) => {
     hora = "buenas tardes ";
   if(h>16)
     hora = "buenas noches ";
-  alert(saludo + hora + nombre.value + ":" + genero.value + h);
+  alert(saludo + hora + nombre.value + ":" + genero.value + h + parseInt(edad.value)>30);
 });
