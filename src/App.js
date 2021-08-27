@@ -1,1 +1,6 @@
-alert("Presiona OK si estas list@ para empezart con javascript")
+const nombre = document.querySelector("#nombre-input");
+const form = document.querySelector("#saludador-form");
+
+form.addEventListener("submit", (event) => {
+  alert("Hola " + nombre.value);
+});
