@@ -7,7 +7,7 @@ form.addEventListener("submit", (event) => {
   const saludo = "Hola";
   const generoSaludo = "señor ";
   if(parseInt(edad.value)>30){
-    if(genero.value = "Femenino")
+    if(genero.value == "Femenino")
       generoSaludo = "señora ";
     saludo = saludo + generoSaludo;
   }
