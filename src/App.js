@@ -9,7 +9,7 @@ form.addEventListener("submit", (event) => {
   const hora = "buenos dias ";
   const saludo = "Hola ";
   const generoSaludo = "señor ";
-  if(parseInt(edad.value)>30){
+  if(edad.value>30){
     if(genero.value == "Femenino")
       generoSaludo = "señora ";
     saludo = saludo + generoSaludo;
@@ -18,5 +18,5 @@ form.addEventListener("submit", (event) => {
     hora = "buenas tardes ";
   if(h>16)
     hora = "buenas noches ";
-  alert(saludo + hora + nombre.value + ":" + genero.value + h + parseInt(edad.value)>30);
+  alert(saludo + hora + nombre.value + ":" + genero.value + h );
 });
