@@ -7,17 +7,17 @@ const form = document.querySelector("#saludador-form");
 form.addEventListener("submit", (event) => {
   var d = new Date();
   var h = d.getHours();
-  var hora = "buenos dias ";
+  var hora = "buen dia ";
   var saludo = "Hola ";
-  var generoSaludo = "señor ";
+  var generoSaludo = "señor";
   if(parseInt(edad.value)>30){
     if(genero.value == "Femenino")
-      generoSaludo = "señora ";
+      generoSaludo = "señora";
     saludo = saludo + generoSaludo;
   }
   if(h>12)
     hora = "buenas tardes ";
   if(h>16)
     hora = "buenas noches ";
-  alert(saludo + hora + nombre.value);
+  alert(saludo + ", "+ hora + nombre.value);
 });
