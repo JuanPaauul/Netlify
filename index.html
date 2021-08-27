@@ -1,5 +1,34 @@
-<html>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot saludador</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Robot saludador</h1>
+  <hr>
+  <h2>Hola!</h2>
+  <form id="saludador-form">
+    <label for="nombre-input">Ingresa tu nombre:</label>
+    <input type="text" id="nombre-input" />
+    <br>
+    <label for="genero-input">Ingresa tu genero:</label>
+    <input type="text" id="genero-input" />
+    <br>
+    <label for="edad-input">Ingresa tu edad:</label>
+    <input type="text" id="edad-input" />
+    <br>
+    <label for="idioma-input">Ingresa tu idioma:</label>
+    <input type="text" id="idioma-input" />
+    <br>
+    <input type="submit" value="Saludar" />
+  </form>
+  <script src="./src/index.js"></script>
+</body>
+</html>
     <!--
       saludar “Hola”
       registrar nombre para el saludo  “Hola <nombre>”
@@ -12,20 +41,3 @@
       saludar según el nombre, edad, género, tiempo e idioma
       Mejorar presentación visual
     -->
-    <h1>Robot saludador</h1>
-    <h2>Hola!</h2>
-    <form id="saludador-form">
-      <label for="nombre-input">Ingresa tu nombre:</label>
-      <input type="text" id="nombre-input" />
-      <br>
-      <label for="genero-input">Ingresa tu genero:</label>
-      <input type="text" id="genero-input" />
-      <br>
-      <label for="edad-input">Ingresa tu edad:</label>
-      <input type="text" id="edad-input" />
-      <br>
-      <input type="submit" value="Saludar" />
-    </form>
-    <script src="./src/index.js"></script>
-  </body>
-</html>
