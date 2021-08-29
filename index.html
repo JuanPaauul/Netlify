@@ -8,24 +8,37 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Robot saludador</h1>
-  <hr>
-  <h2>Hola!</h2>
-  <form id="saludador-form">
-    <label for="nombre-input">Ingresa tu nombre:</label>
-    <input type="text" id="nombre-input" />
-    <br>
-    <label for="genero-input">Ingresa tu genero:</label>
-    <input type="text" id="genero-input" />
-    <br>
-    <label for="edad-input">Ingresa tu edad:</label>
-    <input type="text" id="edad-input" />
-    <br>
-    <label for="idioma-input">Ingresa tu idioma:</label>
-    <input type="text" id="idioma-input" />
-    <br>
-    <input type="submit" value="Saludar" />
-  </form>
+  <div class="top">
+    <h1>Robot saludador</h1>
+    <hr>
+    <h2>Hola!</h2>
+  </div>
+  <div class="middle">
+    <div class="left-middle">
+      <iframe src="https://giphy.com/embed/1ZDDyAaAA82ywDiyKs" width="480" height="480" frameBorder="0" class="giphy-embed"></iframe>
+    </div>
+    <div class="right-middle">
+      <form id="saludador-form">
+        <label for="nombre-input">Ingresa tu nombre:</label>
+        <input type="text" id="nombre-input" />
+        <br>
+        <label for="genero-input">Ingresa tu genero:</label>
+        <input type="text" id="genero-input" />
+        <br>
+        <label for="edad-input">Ingresa tu edad:</label>
+        <input type="text" id="edad-input" />
+        <br>
+        <select name="SelectorIdioma" id="idioma-input">
+          <option value="espanol">Español</option>
+          <option value="ingles">English</option>
+          <option value="aleman">Deutch</option>
+        </select>
+        <br>
+        <input type="submit" value="Saludar" />
+      </form>
+    </div>
+  </div>
+  
   <script src="./src/index.js"></script>
 </body>
 </html>

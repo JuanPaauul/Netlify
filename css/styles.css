@@ -3,6 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  /*background-color: #fef7dc;*/
 }
 h1 {
   font-size: 90px;
@@ -17,9 +18,15 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 label {
-  color: #637172;
+  padding: 10px;
+  position: relative;
+  color: #ffffff;
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
+}
+input {
+  border: none;
+  border-radius: 20px;
 }
 hr {
   border: none;
@@ -29,4 +36,22 @@ hr {
   border-top-width: 10px;
   height: 50px;
   width: 50%;
+}
+.middle {
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+.left-middle {
+  float: left;
+}
+.right-middle {
+  background-color: #e0d3ce;
+  padding: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+  border-radius: 20px;
+  top: 70px;
+  float: right;
 }
