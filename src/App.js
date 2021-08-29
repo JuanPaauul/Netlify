@@ -12,7 +12,7 @@ form.addEventListener("submit", (event) => {
   var hora = "buen dia ";
   var saludo = "Hola ";
   var generoSaludo = "señor";
-  if(idioma.value == "Español"){
+  if(idioma.value == "espanol"){
     hora = "buen dia ";
     saludo = "Hola";
     generoSaludo = "señor";
@@ -26,7 +26,7 @@ form.addEventListener("submit", (event) => {
     if(h>16)
       hora = "buenas noches ";
   }
-  if(idioma.value == "English"){
+  if(idioma.value == "ingles"){
     hora = "good morning ";
     saludo = "Hello ";
     generoSaludo = "mister";
@@ -40,7 +40,7 @@ form.addEventListener("submit", (event) => {
     if(h>16)
       hora = "good evening ";
   }
-  if(idioma.value == "Deutch"){
+  if(idioma.value == "aleman"){
     hora = "guten morgen ";
     saludo = "Hallo ";
     generoSaludo = "Herr ";
