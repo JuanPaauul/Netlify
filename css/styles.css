@@ -24,6 +24,10 @@ label {
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
 }
+select {
+  border: none;
+  border-radius: 20px;
+}
 input {
   border: none;
   border-radius: 20px;
